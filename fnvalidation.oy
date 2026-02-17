@@ -1,0 +1,25 @@
+import sys
+
+def validatename(name):
+    for char in name:
+        if char.isnumeric():
+           print("Name cannot contain numbers")
+           sys.exit(1)
+        
+fname = 'sam'
+lname = 'ignat5ius'
+
+validatename(fname)   # name = "sam82
+"
+
+#  for char in "sam82":
+#     if s.isnumeric()
+#     if a.isnumeric()
+#     if m.isnumeric()
+#     if 8.isnumeric()
+
+validatename(lname)
+
+# WAP to find the given number is a armstrong number or not
+# 153 = 1 + 125 + 27 = 153
+
